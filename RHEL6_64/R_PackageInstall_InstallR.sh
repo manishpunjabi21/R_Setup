@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 # Remove previous installations if any
 yum -y remove R
 yum -y remove R-core
@@ -87,3 +87,4 @@ rpm -ivh RPM_PACKAGES/R-java-3.2.3-4.el6.x86_64.rpm
 rpm -ivh RPM_PACKAGES/libRmath-3.2.3-4.el6.x86_64.rpm
 rpm -ivh RPM_PACKAGES/libRmath-devel-3.2.3-4.el6.x86_64.rpm
 rpm -ivh RPM_PACKAGES/R-3.2.3-4.el6.x86_64.rpm
+
