@@ -7,9 +7,9 @@
 	- chmod +x R_PackageInstall_InstallR.sh
 	- chmod +x R_PackageInstall_InstallPackages.sh
 
-2. To run with admin access
-	- sudo sh R_PackageInstall_InstallR.sh
-	- sudo sh R_PackageInstall_InstallPackages.sh
+2. To run installation scripts with admin access user ( user with sudo access)
+	- sh R_PackageInstall_InstallR.sh
+	- sh R_PackageInstall_InstallPackages.sh
 
 	or become a super user and then execute the shell scripts
 	
